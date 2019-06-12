@@ -1,0 +1,19 @@
+{
+  "name": "batch-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist.min.js",
+  "scripts": {
+    "bundle": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chuchencheng",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "rollup": "^1.15.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^5.0.0"
+  }
+}
